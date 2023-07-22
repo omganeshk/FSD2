@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior:smooth;">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial scale=1">
+
+        <!-- my css -->
+        <!-- <link href="C:\Users\K OMGANESH\HelloWorld\html\assignment-3\main.css" type="text/css" rel="stylesheet"/> -->
+
+        <title>Burger King</title>
+        <link rel="icon" type="image/x-icon" href="Burger_King.png">
+
+        <!-- bootstap css -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" 
+        crossorigin="anonymous">
+
+
+        <!-- internal css -->
+     
+        <style>
+            .box {
+            position: relative;
+            text-align: center;
+            color: #633416;
+            
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 100% 100%;
+            }
+        
+            .body1 {
+            background-image: url('image10.jpg');
+             background-repeat: no-repeat;
+              background-attachment: fixed; 
+               background-size: 100% 100%;
+               width: 100%;
+                          }  
+            
+            .bottom-left {
+             position: absolute;
+             bottom: 8px;
+             left: 16px;
+            }
+            .bottom-right {
+            position: absolute;
+            bottom: 8px;
+            right: 16px;
+            }
+
+            .row {
+            display: -ms-flexbox; /* IE10 */
+            display: flex;
+            -ms-flex-wrap: wrap; /* IE10 */
+            flex-wrap: wrap;
+            padding: 0 4px;
+            background-size: 50% 50%;
+            }
+
+            .column {
+            -ms-flex: 25%; /* IE10 */
+              flex: 25%;
+             max-width: 50%;
+            padding: 10 10px;
+            }
+
+            .image13 {
+             position: relative;
+             animation: mymove 6s step-end ;
+             animation-play-state: running;
+             
+             animation-delay: calc(var(--scroll) * -1s);
+            
+            }
+
+            @keyframes mymove {
+            from {left: -500px;}
+            to {left: 0px;}
+            }
+
+           #image13{animation-timing-function: ease-out;}
+
+            
+
+        </style>
+    </head>
+    <body class="body1 " style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+
+        <!-- navigational bar -->
+        <ul class="navbar fixed-top" style="background-color: #fbf4e9; box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);" >
+            <li class="nav">
+                <a class="navbar-brand" href="#" style="margin-left: 15px;"><img src="Burger_King.png"
+                     height="30" width="30" alt="mc"></a>
+                     <a class="navbar-brand" href="#" style="font-weight: 500;">Burger King®</a>
+            </li>
+          
+             <li class="nav">
+                <a type="button" class="btn" href="#about"  style="margin-right: 10px; 
+                font-weight: 500; color: #e44b14; border-radius: 50px">About</a>
+      
+          
+                <button type="button" class="btn" style="margin-right: 10px; margin-left: 10px; 
+                font-weight: 500; color: #e44b14; border-radius: 50px;">Menu</button>
+          
+          
+                <button type="button" class="btn" style="margin-right: 15px; 
+                font-weight: 500; color: #e44b14; border-radius: 50px">Contact</button>
+          </li>
+        </ul>
+
+
+ 
+            <div class="box">
+              <img src="image9(3).jpeg" 
+                style="width:100%">
+                <div class="bottom-left" style="font-weight: 500;" >
+                  <img src="48.png"
+                   height="25" width="25" alt="non-veg" style="margin-right: 5px;">Crispy Panner Burger</div>
+
+
+                <div class="bottom-right" style="font-weight: 500;">
+                    <img src="49.png"
+                   height="25" width="25" alt="non-veg" style="margin-right: 5px;">Mutton Burger</div>
+            </div>
+            
+            
+
+            
+    
+          
+                <div id="about" class="row container-fluid" style=" border-style: dashed; height: 650px; width:80%; margin: 150px; background-color: #fbf4e9; border-radius: 50px;">
+                   <div class="column">
+                    <div> <img src="Burger_King_2020.svg.png" class="img-fluid"  style= "margin: 75px; border-radius: 50px; border-color: #633416; border-style: dashed; 
+                    height: 500px; width: 550px;" alt=""></div>
+                   </div>
+                   <div class="column"  style="margin: 75px  ;  height: 500px; width: 550px; ">
+                    <h1>Burger King (BK),</h1>
+                    <P> known as Hungry Jack's in Australia, is an American-based
+                         multinational chain of hamburger fast food restaurants. 
+                         Headquartered in Miami-Dade County, Florida, the company was 
+                         founded in 1953 as Insta-Burger King, a Jacksonville, Florida–
+                         based restaurant chain. After Insta-Burger King ran into financial 
+                         difficulties, its two Miami-based franchisees David Edgerton 
+                         (1927–2018) and James McLamore (1926–1996) purchased the
+                         company in 1959 and renamed it "Burger King".[5] Over the next 
+                         half-century, the company changed hands four times and its third 
+                         set of owners, a partnership of TPG Capital, Bain Capital, and 
+                         Goldman Sachs Capital Partners, took it public in 2002. In late 
+                         2010, 3G Capital of Brazil acquired a majority stake in the 
+                         company, in a deal valued at US$3.26 billion. The new owners 
+                         promptly initiated a restructuring of the company to reverse its 
+                         fortunes. 3G, along with partner Berkshire Hathaway, eventually 
+                         merged the company with the Canadian-based doughnut chain 
+                         Tim Hortons, under the auspices of a new Canadian-based parent 
+                         company named Restaurant Brands International.</P>
+                   </div>
+                    </div>
+
+      <div id="image13" class="image13">
+        <img src="image13.jpeg" alt="">
+      </div>
+
+                    <!-- <div class="row container-fluid" style="background-color: #fbf4e9;">
+
+                           <div class="column" style="align-content: end;"></div>
+                        
+                         </div> -->
+                         
+               <img src="image 14.jpg" alt="">
+                    <img src="image12.jpeg" alt="">
+        
+
+
+
+  <!-- <button id="button" onclick="theme()" >Theme</button> -->
+
+  <!-- bootstarp js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" 
+    crossorigin="anonymous"></script>
+    <!-- my js -->
+    <script type="module" src=".\assignment-3\file.js"></script>
+    </body>
+</html>
